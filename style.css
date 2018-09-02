@@ -49,13 +49,13 @@ table {
 
 /* end of recet css */
 
-
+/* * box-sizing : border box; */
 
 body{
     font-family: Arial, Helvetica, sans-serif;
     direction: rtl;
-    
 }
+
 .top-header{
     display: inline-block;
 }
@@ -89,12 +89,20 @@ h1{
     margin-right: 530px;
 }
 
+.heb-top-title{
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+
 .clock-icon{
     width: 18px;
 }
 
 .testimonials{
     background-color: #efefef;
+    margin: 0 auto;
+    width: 1200px;
+
 }
 
 .car-parking{
@@ -104,9 +112,9 @@ nav{
     float: left;
     margin-top: -260px;
     background-color: #ffffff;
-    padding-left: 30px;
+    padding: 25px;
     line-height: 41px;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
  a:hover{
@@ -117,13 +125,23 @@ a:link {
     text-decoration: none;
 }
 
+.nav{
+    border-bottom: 1px dashed #cccccc;    
+}
+
 ul{
     list-style: none;
 }
 
 article{
     background-color: #ffffff;
-    width: 360px;
+    width: 300px;
     display: inline-block;
-    padding: 30px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 40px;
+}
+
+main{
+    background-color: #efefef;
 }
